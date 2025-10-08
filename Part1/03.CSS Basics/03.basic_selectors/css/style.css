@@ -1,0 +1,46 @@
+body {
+    margin: 10px;
+}
+
+#products {
+    background-color: burlywood;
+}
+
+.product {
+    background-color: cornflowerblue;
+}
+
+/* Check for the existence of an attribute named "target" */
+a[target] {
+    color: darkred;
+}
+
+/* Check for the exact string match */
+a[target="_blank"] {
+    color: darkred;
+}
+
+/* Check for the exact string match */
+a[href="https://google.com"] {
+    color: darkred;
+}
+
+/* Check for the existence of word "google" in href attribute */
+a[href*="google"] {
+    color: darkred;
+}
+
+/* Check for starting with "https" in href attribute */
+a[href^="https"] {
+    color: darkred;
+}
+
+/* Check for ending with "https" in href attribute */
+a[href$=".com"] {
+    color: darkred;
+}
+
+/* Combined */
+a[href^="https"][href$=".com"] {
+    color: darkred;
+}
