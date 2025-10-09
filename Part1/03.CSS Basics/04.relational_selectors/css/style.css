@@ -1,0 +1,34 @@
+body {
+    margin: 10px;
+}
+
+/* List selector */
+/* Selects all <article> elements and all <p> elements */
+article, p {
+    padding: 4px;
+    border: 1px solid gray;
+}
+
+/* Descendent selector */
+/* Selects all <p> elements inside <section> elements */
+#products p {
+    color: orange;
+}
+
+/* Child selector */
+/* Selects every <p> element that are direct children of a <section> element */
+#products > p {
+    color: red;
+}
+
+/* Subsequent sibling selector */
+/* 	Selects all <p> elements that are preceded by a <section> element */
+#products ~ p {
+    color: blueviolet;
+}
+
+/* Next sibling selector */
+/* Selects the first <p> element that is placed immediately after <section> elements */
+#products + p {
+    color: blue;
+}
