@@ -1,0 +1,55 @@
+body {
+    margin: 10px;
+}
+
+/* Pseudo-class :first-child */
+/* Selects the element that is the first child of its parent (among a group of sibling elements) */
+article :first-child {
+    font-size: 140%;
+    font-style: italic;
+    color: red;
+}
+
+/* Pseudo-class :first-of-type */
+/* Selects the first element of its type among a group of sibling elements */
+article p:first-of-type {
+    color: blueviolet;
+}
+
+/* Pseudo-class :last-child */
+/* Selects the element that is the last child of its parent (among a group of sibling elements) */
+article :last-child {
+    font-weight: bold;
+}
+
+/* Pseudo-class :last-of-type */
+/* Selects the last element of its type among a group of sibling elements */
+article p:last-of-type {
+    color: green;
+}
+
+/* Pseudo-class :nth-child */
+/* Based on provided argument, in this case i.e. selects any <li> element inside an <ul> element that is the odd child of its parent */
+/* ul li:nth-child(3n) { */
+/* ul li:nth-child(even) { */
+ul li:nth-child(odd) {
+    color: deeppink;
+}
+
+/* order matters! */
+/* a:link select any unvisited link */
+a:link {
+    color: dodgerblue;
+}
+
+/* a:visited select any visited link */
+a:visited {
+    color: goldenrod;
+}
+
+/* a:link select any unvisited link */
+/* :hover con be applied to other elements like i.e. div, section, img etc.  */
+/* :focus Selects the element that gets focus (sometime using TAB). Most used for form elements */
+a:hover, a:focus {
+    color: darkorange;
+}
