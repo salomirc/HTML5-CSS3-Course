@@ -1,0 +1,28 @@
+.highlight {
+    color: deeppink;
+}
+
+/* h1 {
+    color: dodgerblue !important;
+} */
+
+h1 {
+    color: dodgerblue;
+}
+
+
+#products {
+    color: green;
+}
+
+#products {
+    color: brown;
+}
+
+.highlight#products {
+    color:cadetblue
+}
+
+.featured #products {
+    color: burlywood;
+}
