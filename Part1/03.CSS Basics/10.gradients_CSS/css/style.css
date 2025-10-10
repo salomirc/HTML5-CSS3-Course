@@ -1,0 +1,19 @@
+.box {
+    /* width: 200px; */
+    width: 600px;
+    height: 200px;
+    /* background can be an image or a color, the gradient is technically an image */
+
+    /* background: linear-gradient(dodgerblue, yellow); */
+    /* background: linear-gradient(to right, dodgerblue, yellow); */
+    /* background: linear-gradient(to bottom right, dodgerblue, yellow); */
+    /* background: linear-gradient(45deg, dodgerblue, yellow); */
+    /* background: linear-gradient(45deg, dodgerblue, yellow 30%); */
+    /* background: linear-gradient(45deg, dodgerblue, yellow, tomato); */
+    /* background: radial-gradient(white, yellow); */
+    /* background: radial-gradient(white, yellow); */
+    /* background: radial-gradient(circle at top left, white, yellow); */
+
+    background: #0335ff;
+    background: linear-gradient(45deg, rgba(3, 53, 255, 1) 0%, rgba(255, 238, 0, 1) 39%);
+}
