@@ -1,0 +1,27 @@
+body{
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    /* border: 10px dotted royalblue; */
+
+    /* The order of styles matters */
+    border: 10px solid royalblue;
+    border-top: 20px solid royalblue;
+
+    /* trbl (top right bottom left) for order */
+    border-width: 10px 20px 10px 20px; 
+    /* vertical, horizontal */
+    border-width: 10px 40px; 
+    /* all */
+    border-width: 10px;
+    border-style: dashed;
+    border-color: blueviolet;
+
+    /* border-radius: 50px; */
+    /* border-radius: 50%; */
+    border-radius: 100%;
+}
