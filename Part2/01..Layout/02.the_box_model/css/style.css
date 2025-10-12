@@ -1,0 +1,14 @@
+p {
+    padding: 0;
+    border: 1px solid blueviolet;
+}
+
+/* Vertical margins have collapsing behaviour */
+/* The bigger value is applied */
+#one {
+    margin: 16px;
+}
+
+#two {
+    margin: 32px;
+}
