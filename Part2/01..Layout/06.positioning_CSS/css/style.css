@@ -1,0 +1,59 @@
+body {
+    margin: 10px;
+}
+
+.boxes {
+    border: 3px solid lightgrey;
+    /* required for absolute positioning of any child element */
+    /* position: relative; */
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
+
+.box-one {
+    background-color: gold;
+}
+
+.box-two {
+    background-color: tomato;
+
+    position: fixed;
+    left: 25vw;
+    right: 25vw;
+    top: 40vh;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+
+
+    /* position: absolute; */
+    /* right: 0; */
+    /* bottom: 0; */
+
+    /* position: relative; */
+    /* these two options have the same result */
+    /* left: -4rem; */
+    /* right: 4rem; */
+    /* left offset set to 4rem */
+    /* left: 4rem; */
+    /* bottom: 4rem; */
+    /* z-index: 1; */
+}
+
+.box-three {
+    background-color: dodgerblue;
+}
+
+/* Relative positioning -> does NOT affect the normal flow */
+/* Position is relativ to it's normal position */
+
+/* Absolut positioning -> remove the element from the normal flow */
+/* parent should use "position: relative", child should use "position: absolute" */
+/* Position is relative to the parent container */
+
+
+/* Absolut positioning -> remove the element form the normal flow */
+/* Position is relative to the viewport */
