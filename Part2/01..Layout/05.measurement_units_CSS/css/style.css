@@ -1,0 +1,32 @@
+html {
+    /* 62.5% of 16px = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    /* 160% of 10px = 16px */
+    font-size: 160%;
+    margin: 0px;
+}
+
+.box {
+
+    /* 10 x font size of the current element */
+    /* 10 x 16px (font size inherited from the parent in this case) = 160px */
+    /* user agent set 16px by default to html element font size */
+    /* width: 10em; */
+
+    /* 10 x font size of the root element */
+    width: 15rem;
+
+    /* 50% of the width of the parent element */
+    /* width: 50%; */
+
+    /* 50% of the viewport width */
+    /* width: 50vw; */
+
+    /* 50% of the viewport height */
+    height: 50vh;
+    background-color: gold;
+    border-top: 3px solid orange;
+}
