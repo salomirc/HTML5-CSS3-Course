@@ -21,10 +21,11 @@ body {
     background-color: tomato;
 
     position: fixed;
-    left: 10vw;
-    right: 10vw;
+    left: 2rem;
+    right: 2rem;
     top: 0;
     width: auto;
+    z-index: 999;
 
 
     /* position: absolute; */
