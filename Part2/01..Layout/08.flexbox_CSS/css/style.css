@@ -3,35 +3,44 @@ body {
 }
 
 .container {
-    border: 3px solid lightgray;
+    border: 3px solid gray;
+    background-color: lightblue;
 
     display: flex;
     flex-direction: row; /* default value is row */
+    /* align content on the main axis */
     justify-content: center; /* default value is flex-start */
-    align-items: center;  /* default value is flex-start */
 
-    /* flex-wrap: wrap; */
-    /* align the entire content as a whole */
-    /* align-content:center; */
+    height: 40vh;
+    margin-bottom: 10px;
+}
 
-    height: 90vh;
+.single {
+    /* align the items on the cross axis when flex-wrap: nowrap */
+    align-items: flex-end;  /* default value is flex-start */
+}
+
+.wrap {
+    /* align the entire content as a whole on the cross axis when flex-wrap: wrap */
+    align-content:center;
+    flex-wrap: wrap;
 }
 
 .box {
     /* 10rem will overrride the width property if flex-direction is row */
     /* 10rem will overrride the height property if flex-direction is column */
     /* default value is auto (will take the actual width value) */
-    flex-basis: 25rem;
+    /* flex-basis: 25rem; */
 
     /* default value is 0 -> initial width, some kind of "android weight" and decide how to use extra spaces */
     /* how to behave if there is extra space in the container */
-    flex-grow: 1;
+    /* flex-grow: 1; */
 
     /* how to behave if there is not enough space in the container */
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
 
     /* shorthand for flex-grow flex-shrink flex-basis  */
-    /* flex: 1 1 15rem; */
+    /* flex: 0 0 auto; */
 
     width: 5rem;
     height: 5rem;
