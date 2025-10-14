@@ -1,0 +1,48 @@
+body {
+    margin: 10px;
+}
+
+.container {
+    border: 3px solid lightgray;
+
+    display: flex;
+    flex-direction: row; /* default value is row */
+    justify-content: center; /* default value is flex-start */
+    align-items: center;  /* default value is flex-start */
+
+    /* flex-wrap: wrap; */
+    /* align the entire content as a whole */
+    /* align-content:center; */
+
+    height: 90vh;
+}
+
+.box {
+    /* 10rem will overrride the width property if flex-direction is row */
+    /* 10rem will overrride the height property if flex-direction is column */
+    /* default value is auto (will take the actual width value) */
+    flex-basis: 25rem;
+
+    /* default value is 0 -> initial width, some kind of "android weight" and decide how to use extra spaces */
+    /* how to behave if there is extra space in the container */
+    flex-grow: 1;
+
+    /* how to behave if there is not enough space in the container */
+    flex-shrink: 1;
+
+    /* shorthand for flex-grow flex-shrink flex-basis  */
+    /* flex: 1 1 15rem; */
+
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    margin: 1rem;
+}
+
+.box-one {
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    /* flex-basis: 5rem; */
+    /* flex-grow: 0; */
+    flex-shrink: 0;
+}
