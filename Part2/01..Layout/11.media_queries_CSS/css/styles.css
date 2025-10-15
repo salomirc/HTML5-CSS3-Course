@@ -1,0 +1,41 @@
+body {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    padding: 1rem;
+    background-color: gold;
+}
+
+.box:nth-of-type(2) {
+    background-color: dodgerblue;
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        flex-direction: row-reverse;
+    }
+}
+
+@media print {
+    body {
+        font-size: 12pt;
+        font-weight: bold;
+    }
+
+    .box {
+        padding: 1cm;
+    }
+}
+
