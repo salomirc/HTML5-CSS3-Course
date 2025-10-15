@@ -1,0 +1,16 @@
+body {
+    margin: 10px;
+}
+
+p {
+    border: 1px solid gray
+}
+
+.first {
+
+    /* removed from the UI flow */
+    display: none;
+
+    /* The space remain alocated but not invisible */
+    /* visibility: hidden; */
+}
