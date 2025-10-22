@@ -37,6 +37,7 @@ body {
     /* flex-grow: 1; */
 
     /* how to behave if there is not enough space in the container */
+    /* default value is 1 */
     /* flex-shrink: 1; */
 
     /* shorthand for flex-grow flex-shrink flex-basis  */
