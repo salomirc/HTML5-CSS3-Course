@@ -5,7 +5,7 @@ body {
 .boxes {
     border: 3px solid lightgrey;
     /* required for absolute positioning of any child element */
-    /* position: relative; */
+    position: relative;
 }
 
 .box {
@@ -20,17 +20,18 @@ body {
 .box-two {
     background-color: tomato;
 
-    position: fixed;
+    /* position: fixed;
     left: 2rem;
     right: 2rem;
     top: 0;
     width: auto;
-    z-index: 999;
+    z-index: 999; */
 
 
-    /* position: absolute; */
-    /* right: 0; */
-    /* bottom: 0; */
+    position: absolute;
+    left: 10px;
+    top: 25%;
+    z-index: 1;
 
     /* position: relative; */
     /* these two options have the same result */
@@ -44,6 +45,15 @@ body {
 
 .box-three {
     background-color: dodgerblue;
+
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    z-index: 2;
+}
+
+.box-four {
+    background-color: rgb(5, 104, 0);
 }
 
 .global-message-container {
