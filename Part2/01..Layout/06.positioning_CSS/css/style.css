@@ -29,8 +29,8 @@ body {
 
 
     position: absolute;
-    left: 10px;
-    top: 25%;
+    left: 2.5rem;
+    /* top: 25%; */
     z-index: 1;
 
     /* position: relative; */
@@ -47,8 +47,8 @@ body {
     background-color: dodgerblue;
 
     position: absolute;
-    left: 20px;
-    top: 50%;
+    right: 20px;
+    top: 25%;
     z-index: 2;
 }
 
